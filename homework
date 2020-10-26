@@ -1,0 +1,27 @@
+import java.util.*;
+	public class home_work{
+		public static void main (String [] args){
+
+			Scanner s = new Scanner(System.in);
+
+			System.out.println("enter your number of charector name");
+
+			int length = s.nextInt();
+			char tex[] = new char[length];
+
+			for(int x=0;x<length;x++)
+			{
+			System.out.println("enter"+(x+1)+"char");
+			tex[x]=s.next().charAt(0);
+			}
+
+			System.out.print("your name is ");
+
+			for(int x=0;x<length;x++)
+			{
+			System.out.print(tex[x]);
+			}
+			System.out.println(" ");
+
+			}
+			}
